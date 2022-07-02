@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+#bio-block img {
+
+    margin-top: 40px;
+}
+
+body {
+    background-color: rgb(4, 69, 71);
+    /* wanna add background pic . Because it is better */
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    font-weight: bolder;
+}
+
+nav ul li {
+    margin: 0 20px;
+    cursor: auto;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+nav ul li a:hover() {
+    color: red;
+
+}
+
+.header {
+    width: 100%;
+    height: 50vh;
+    background: black;
+    color: rgb(244, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+}
+
+#bio-block {
+    display: flex;
+    padding: 15px;
+
+}
+
+#abtme {
+
+    text-align: left;
+    margin-right: 80px;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 15px;
+}
+
+#para {
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: rgb(75, 203, 238);
+}
+
+#bio-block img {
+    margin: 100px;
+
+}
+
+#port {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(234, 164, 164);
+}
+
+#port-art {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin: 30px;
+}
+
+#sk {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(78, 240, 151);
+
+}
+
+#lang {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 75px;
+    margin: 50px;
+}
+
+#lang li {
+
+    font-size: 1.7em;
+    list-style: none;
+}
+
+#lang h4 {
+
+    font-size: 2.3em;
+    font-weight: 3000;
+
+    padding: 20px;
+    margin: 20px;
+    font-stretch: expanded;
+}
+
+progress {
+    color: black;
+}
+
+#con {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(228, 35, 177);
+}
+
+#port-art h4 {
+
+    font-size: 2em;
+    padding: 2px;
+    margin-right: 100px;
+}
+
+#form {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px;
+    margin: 50px;
+
+}
+
+#place {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.class {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 4px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+#contact form input:last-child {
+    margin-top: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#footer {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: bolder;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+#bio-block img {
+
+    margin-top: 40px;
+}
+
+body {
+    background-color: white;
+    /* wanna add background pic . Because it is better */
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    font-weight: bolder;
+}
+
+nav ul li {
+    margin: 0 20px;
+    cursor: auto;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+nav ul li a:hover() {
+    color: red;
+
+}
+
+.header {
+    width: 100%;
+    height: 50vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio-block {
+    display: flex;
+    padding: 15px;
+
+}
+
+#abtme {
+
+    text-align: center;
+    margin-right: 80px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#para {
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: white;
+}
+
+#bio-block img {
+    margin: 100px;
+
+}
+
+#port {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+
+#port-art {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin: 30px;
+}
+
+#sk {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#lang {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 75px;
+    margin: 50px;
+}
+
+#lang li {
+
+    font-size: 1.7em;
+    list-style: none;
+}
+
+#lang h4 {
+
+    font-size: 2.3em;
+    font-weight: 3000;
+
+    padding: 20px;
+    margin: 20px;
+    font-stretch: expanded;
+}
+
+progress {
+    color: black;
+}
+
+#con {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+
+#port-art h4 {
+
+    font-size: 2em;
+    padding: 2px;
+    margin-right: 100px;
+}
+
+#form {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px;
+    margin: 50px;
+
+}
+
+#place {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.class {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 4px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+#contact form input:last-child {
+    margin-top: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#footer {
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: bolder;
+}
